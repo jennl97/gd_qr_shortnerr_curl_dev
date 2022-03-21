@@ -1,0 +1,11 @@
+{
+  "version": "2.0",
+  "app_name": "gd_qr_shortener_curl_dev",
+  "stages": {
+      "dev": {
+          "api_gateway_stage": "api",
+          "manage_iam_role": false,
+          "iam_role_arn": "arn:aws:iam::947608016707:role/lambda-dynamodb-url-shortener"
+      }
+  }
+}
